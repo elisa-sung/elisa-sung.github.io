@@ -1,0 +1,85 @@
+#blue1 {
+    color; white;
+    font-weight: bold;
+    font-family: fantasy; 
+    background-color: #217CF5;
+    text-decoration: underline;
+}
+
+#bluecolor {
+    color; white;
+    font-weight: bold;
+    font-family: fantasy; 
+    background-color: #7caeef;
+}
+
+#lightblue {
+    color; white;
+    font-weight: bold;
+    font-family: fantasy; 
+    background-color:#9ec1ef; 
+}
+#redcolor {
+    color; white;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #CF0F1A;
+    text-decoration: underline;
+}
+
+#red {
+    color; white;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #cc474e;
+    font-size: 21px;
+}
+
+#lightred {
+    color; white;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #e2888c;
+}
+
+#yellow {
+    color; black;
+    font-weight: bold, italic;
+    font-family: monospace;
+    background-color: #ffee2e;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#yellowcolor {
+    color; black;
+    font-weight: bold;
+    font-style:italic;
+    font-family: monospace;
+    background-color: #fcef64;
+    font-size:20px;
+}
+
+#ycolor {
+    color; black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+    background-color: #f9f19a;
+    font-size: 20px;
+}
+
+#lightyellow {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+    background-color: #f9f5c5;
+    font-size: 20px;
+}
+
+img {
+    opacity: 0.9;
+}
+
+

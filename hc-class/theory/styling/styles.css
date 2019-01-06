@@ -1,0 +1,28 @@
+h1{
+    color: #D9EAD3;
+    background-color: rgba(78, 125, 64, 0.99)
+}
+
+p{
+    font-size: 20px;
+    font-family: "Cursive", "Futura", "Sans-Serif";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#paragraph{
+    Background-color: Teal;
+}
+
+.bluecolor{
+    color:blue
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+img{
+    opacity:0.55;
+}
