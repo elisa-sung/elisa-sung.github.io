@@ -1,49 +1,54 @@
-#blue1 {
-    color; white;
+* {
+    color: black;
+}
+
+.blue1 {
+    color: black;
     font-weight: bold;
     font-family: fantasy; 
     background-color: #217CF5;
     text-decoration: underline;
 }
 
-#bluecolor {
-    color; white;
+.bluecolor {
+    color: black;
     font-weight: bold;
     font-family: fantasy; 
     background-color: #7caeef;
 }
 
-#lightblue {
-    color; white;
+.lightblue {
+    color: black;
     font-weight: bold;
     font-family: fantasy; 
     background-color:#9ec1ef; 
 }
-#redcolor {
-    color; white;
+
+.redcolor {
+    color: black;
     font-weight: bold;
     font-family: cursive;
     background-color: #CF0F1A;
     text-decoration: underline;
 }
 
-#red {
-    color; white;
+.red {
+    color: black;
     font-weight: bold;
     font-family: cursive;
     background-color: #cc474e;
     font-size: 21px;
 }
 
-#lightred {
-    color; white;
+.lightred {
+    color: black;
     font-weight: bold;
     font-family: cursive;
     background-color: #e2888c;
 }
 
-#yellow {
-    color; black;
+.yellow {
+    color: black;
     font-weight: bold, italic;
     font-family: monospace;
     background-color: #ffee2e;
@@ -51,8 +56,8 @@
     text-decoration: underline;
 }
 
-#yellowcolor {
-    color; black;
+.yellowcolor {
+    color: black;
     font-weight: bold;
     font-style:italic;
     font-family: monospace;
@@ -60,8 +65,8 @@
     font-size:20px;
 }
 
-#ycolor {
-    color; black;
+.ycolor {
+    color: black;
     font-weight: bold;
     font-style: italic;
     font-family: monospace;
@@ -69,7 +74,7 @@
     font-size: 20px;
 }
 
-#lightyellow {
+.lightyellow {
     color: black;
     font-weight: bold;
     font-style: italic;
@@ -82,4 +87,39 @@ img {
     opacity: 0.9;
 }
 
+body {
+    background-color: #e0e0e0
+}
+
+.navigation {
+    background-color: blue;
+}
+
+.unorderedlist {
+    display: flex;
+    list-style-type: none;
+    width: 1000px;
+    height: 50px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    align-content: center;
+}
+
+.nav-list {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "arial";
+    margin: auto;
+}
+
+.nav-link, .nav-link:visited {
+    text-decoration: none;
+    transition: 0.2s;
+    color:white;
+}
+
+.nav-link:hover {
+   opacity:0.6;
+}
 
