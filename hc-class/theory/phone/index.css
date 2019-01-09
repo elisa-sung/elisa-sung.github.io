@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+
+}
+
+.nav-color {
+    background-color: purple;
+}
+
+.nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.navlink {
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding-bottom: 5px;
+}
+
+.navlink:hover{
+    color: #b39ddb;
+    border-bottom: 3px solid #b39ddb;
+
+}
+
+.main {
+    height: 600px;
+    background-image: url(images/iphonexr.jpg);
+    padding-top: 100px;
+}
+
+.main-header {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.main-description {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.card-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-image {
+    height: 100px;
+}
+
+.card-item{
+    border: purple 2px solid;
+    border-style: dashed;
+    border-radius: 20px;
+    width: 45%;
+    margin: 20px 0px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-description{
+    text-align: center;
+}
