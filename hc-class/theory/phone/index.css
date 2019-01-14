@@ -92,3 +92,34 @@
 .card-description{
     text-align: center;
 }
+
+@media (max-width: 800px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+@media (max-width: 1770px) {
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:900px) {
+.card-item {
+    width: 100%;
+
+}
+
