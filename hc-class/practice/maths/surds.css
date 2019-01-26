@@ -220,6 +220,43 @@ a {
   text-decoration: none;
 }
 
+#button1 {
+  background: #6292c2;
+  border: 2px solid #eee;
+  height: 40px;
+  width: 118px;
+  margin: 50px 0 0 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  overflow: hidden;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;
+   /*Rounded Corners*/
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   /*Gradient*/
+   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+   background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+   background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    /*Transition*/
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+}
+
+#button1:hover {
+  width: 160px;
+}
+
+
 
 #button4 {
     background: #5c5c5c;
