@@ -51,9 +51,9 @@ a {
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
   background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
   background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-  }
+}
 
-  #button4:hover {
+#button4:hover {
     margin-top: 52px;
     
     /*Shadow*/
@@ -67,7 +67,7 @@ a {
     background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
-  }
+}
 
 .container {
     width: 80%;
@@ -103,7 +103,7 @@ a {
 .navlink {
     color:white;
     text-decoration: none;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
     padding-bottom: 5px;
 }
 
@@ -114,9 +114,7 @@ a {
     font-weight: bold;
     float: right;
     margin: 15px;
-    -webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
+
 }
 
 .main {
@@ -160,10 +158,12 @@ a {
                  0px -5px 35px rgba(255,255,255,0.3);
 }
 
-@media (max-width: 800px) {
-    .quote {
-        width: 100%;
-        height: auto;
+@media (min-width: 801px) {
+    /* .navlink:hover {
+        -webkit-transition: margin 0.5s ease-out;
+        -moz-transition: margin 0.5s ease-out;
+        -o-transition: margin 0.5s ease-out;
+    } */
 }
 
 
@@ -175,6 +175,22 @@ a {
         padding-bottom: 20px;
     }
 
+    .nav-list {
+        flex-direction: column;
+    }
+    
+    .nav-link:hover {
+        color: #b3e5fc;
+        text-decoration: underline;
+    }
+
+    .quote {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
 @media (max-width: 800px) {
     .main-header {
         font-size: 60px;
@@ -183,11 +199,12 @@ a {
         text-shadow: -5px 5px 0px #00e6e6,
         -10px 10px 0px #01cccc,
         -15px 15px 0px #00bdbd;
+    }
 }
 
 @media (max-width: 800px) {
     img {
         height: 100%;
         width: auto;
+    }
 }
-

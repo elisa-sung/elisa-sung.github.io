@@ -13,10 +13,6 @@ body,html {
     background-color: #b3e5fc;
 }
 
-
-
-
-
 .container {
     width: 80%;
     margin:0 auto;
@@ -53,6 +49,9 @@ body,html {
     text-decoration: none;
     transition: all 0.3s;
     padding-bottom: 5px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
 
 .navlink:hover{
@@ -62,11 +61,6 @@ body,html {
     font-weight: bold;
     float: right;
     margin: 15px;
-    -webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
-
-
 }
 
 .main {
@@ -161,31 +155,35 @@ body,html {
         padding-bottom: 20px;
     }
 
-.nav-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.nav-link {
-    padding: 0;
+    .nav-link {
+        padding: 0;
+    }
 }
 
 @media (max-width: 1770px) {
-.card-image {
-    width: 100%;
-    height: auto;
+    .card-image {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width:900px) {
-.card-item {
-    width: 100%;
+    .card-item {
+        width: 100%;
+    }
 }
 
 @media (max-width: 900px) {
-.quote {
-    width: 100%;
-    height: auto;
+    .quote {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
