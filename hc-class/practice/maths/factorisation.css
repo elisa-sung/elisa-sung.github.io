@@ -97,14 +97,18 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
+    /*change width in all  */
 }
 
 .navlink {
     color:white;
     text-decoration: none;
-    /* transition: all 0.3s; */
+    transition: all 0.3s;
     padding-bottom: 5px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
 }
 
 .navlink:hover{
@@ -113,7 +117,8 @@ a {
     opacity: 0,6;
     font-weight: bold;
     float: right;
-    margin: 15px;
+    padding: 5px;
+    /* must change margin in navlink hover to padding */
 
 }
 
@@ -177,6 +182,9 @@ a {
 
     .nav-list {
         flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        /* add flex direction and align items to all */
     }
     
     .nav-link:hover {
