@@ -5,7 +5,7 @@
 // ALERTS
 
 
-var name = prompt("What number am I thinking of", "1 - 100")
+
 var a = 49
 var b = (`${name}`) 
 

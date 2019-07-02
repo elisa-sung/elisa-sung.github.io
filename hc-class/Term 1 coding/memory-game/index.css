@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px; 
+    padding: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: white;
+}
+
+/* 1 and 16 */
+.card-1, .card-16 {
+    background-color:red;
+}
+/* 2 and 15 */
+.card-2, .card-15 {
+    background-color:orange;
+}
+/* 3 and 14 */
+
+.card-3, .card-14 {
+    background-color:yellow;
+}
+/* 4 and 13 */
+.card-4, .card-13 {
+    background-color:green;
+}
+/* 5 adn 12 */
+.card-5, .card-12 {
+    background-color:blue;
+}
+/* 6 and 11 */
+.card-6, .card-11 {
+    background-color:violet;
+}
+/* 7 and 10 */
+.card-7, .card-10 {
+    background-color:pink;
+}
+/* 8 and 9 */
+.card-8, .card-9 {
+    background-color:purple;
+}
+
+.unselected {
+    background-color: black;
+}
+
+.unselected i {
+    display: none;
+}
