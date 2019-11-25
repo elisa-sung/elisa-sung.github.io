@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.container {
+  width: 80%;
+  margin:0 auto;
+
+}
+
+.nav-color {
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIAAqgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAAEGBwX/xAAaEAEBAQEAAwAAAAAAAAAAAAABABECITFh/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACBAP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/APDaqqSqqpNqrSk0tq08yESsCQSkSywJFBBLKCWSEWhbkgoILSgmEhgTKJBIRbaEskPgVVXi91aVaUmltFoSEEigtJSLQokFBBLKCRIQSLJhIYEgqQUGksokEjUFoUEwkIJZQSxkOctKLQvB0NLaokNtLQtJStoJFBBIKJEhZKwJhQQWhU+SQzkkWhIkMCQbRMkIJBQSCQglaSyg5ototvF0ILQoJSlaFBIoIJBYTPUhgTsCQUGhbWSCQ0JFgTCQwJBU+SQgkFBIJDSQUEjmg0LctC3JZrmAtCgkF4upFoUSoLLQoJhIYE7AkFBEwsCQSEEgoJhIQSCgkEhckgoMkEhuSCgkFMoJhQSCQ0LctCWSHK2lSLwdSLSgkHyQ0LcokFBBIKCQSEEgokEjUEwsCYSEEgoJhQYEwoJEhBMLAmEsomFgTJCCWUE8mByYWhWT5LwdTAmWBIKCyRRIJCCRQSChUEgoJhaCCWUEgkIJhRIKZQTCwJhIQTDxYEwkMCfJQSCQ0JZaEsllyWSCwJBc7rQSCgkEhBIKCQUEEgoJhaCCQUSCQgkFoSCggkFBMJZRIKCYSEEgoJBIaEgoJ5LKCWWhLJD/2Q==);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.navlink {
+  color:white;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding-bottom: 5px;
+}
+
+.navlink:hover{
+  color: #81d4fa;
+  border-bottom: 3px solid #81d4fa;
+
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 {
+  background-image: url("images/airpollution.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img2 {
+   background-image: url("images/wwww.jpg"); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.img3 {
+  background-image: url("images/w.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 950px;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+#special {
+    height:40%;
+}
